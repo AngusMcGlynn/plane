@@ -331,11 +331,11 @@
         "toggle_description": "Plan work in focused timeframes."
       },
       "modules": {
-        "title": "Modules",
-        "short_title": "Modules",
+        "title": "Outcomes",
+        "short_title": "Outcomes",
         "description": "Organize work into sub-projects with dedicated leads and assignees.",
-        "toggle_title": "Enable modules",
-        "toggle_description": "Project members will be able to create and edit modules."
+        "toggle_title": "Enable outcomes",
+        "toggle_description": "Project members will be able to create and edit outcomes."
       },
       "views": {
         "title": "Views",

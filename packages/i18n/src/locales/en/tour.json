@@ -46,24 +46,24 @@
     },
     "module": {
       "step_zero": {
-        "title": "Break your project down into Modules",
-        "description": "Modules are smaller, focused projects that help users group and organize work items within specific time frames."
+        "title": "Break your project down into Outcomes",
+        "description": "Outcomes are smaller, focused projects that help users group and organize work items within specific time frames."
       },
       "step_one": {
-        "title": "Create Module",
-        "description": "Modules are smaller, focused projects that help users group and organize work items within specific time frames."
+        "title": "Create Outcome",
+        "description": "Outcomes are smaller, focused projects that help users group and organize work items within specific time frames."
       },
       "step_two": {
         "title": "Click “+ ”",
-        "description": "Start by clicking the “+” button. Add new or existing work items directly from the Module page."
+        "description": "Start by clicking the “+” button. Add new or existing work items directly from the Outcome page."
       },
       "step_three": {
-        "title": "Module states",
-        "description": "Modules use these statuses to help users plan and clearly track progress and stage."
+        "title": "Outcome states",
+        "description": "Outcomes use these statuses to help users plan and clearly track progress and stage."
       },
       "step_four": {
-        "title": "Module progress",
-        "description": "Module progress is tracked via completed items, with analytics to monitor performance."
+        "title": "Outcome progress",
+        "description": "Outcome progress is tracked via completed items, with analytics to monitor performance."
       }
     },
     "page": {

@@ -216,27 +216,27 @@
     }
   },
   "project_module": {
-    "add_module": "Add Module",
-    "update_module": "Update Module",
-    "create_module": "Create Module",
-    "archive_module": "Archive Module",
-    "restore_module": "Restore Module",
-    "delete_module": "Delete module",
+    "add_module": "Add Outcome",
+    "update_module": "Update Outcome",
+    "create_module": "Create Outcome",
+    "archive_module": "Archive Outcome",
+    "restore_module": "Restore Outcome",
+    "delete_module": "Delete outcome",
     "empty_state": {
       "general": {
-        "title": "Map your project milestones to Modules and track aggregated work easily.",
-        "description": "A group of work items that belong to a logical, hierarchical parent form a module. Think of them as a way to track work by project milestones. They have their own periods and deadlines as well as analytics to help you see how close or far you are from a milestone.",
+        "title": "Map your project milestones to Outcomes and track aggregated work easily.",
+        "description": "A group of work items that belong to a logical, hierarchical parent form a outcome. Think of them as a way to track work by project milestones. They have their own periods and deadlines as well as analytics to help you see how close or far you are from a milestone.",
         "primary_button": {
-          "text": "Build your first module",
+          "text": "Build your first outcome",
           "comic": {
-            "title": "Modules help group work by hierarchy.",
-            "description": "A cart module, a chassis module, and a warehouse module are all good example of this grouping."
+            "title": "Outcomes help group work by hierarchy.",
+            "description": "A cart outcome, a chassis outcome, and a warehouse outcome are all good example of this grouping."
           }
         }
       },
       "no_issues": {
-        "title": "No work items in the module",
-        "description": "Create or add work items which you want to accomplish as part of this module",
+        "title": "No work items in the outcome",
+        "description": "Create or add work items which you want to accomplish as part of this outcome",
         "primary_button": {
           "text": "Create new work items"
         },
@@ -245,26 +245,26 @@
         }
       },
       "archived": {
-        "title": "No archived Modules yet",
-        "description": "To tidy up your project, archive completed or cancelled modules. Find them here once archived."
+        "title": "No archived Outcomes yet",
+        "description": "To tidy up your project, archive completed or cancelled outcomes. Find them here once archived."
       },
       "sidebar": {
-        "in_active": "This module isn't active yet.",
+        "in_active": "This outcome isn't active yet.",
         "invalid_date": "Invalid date. Please enter valid date."
       }
     },
     "quick_actions": {
-      "archive_module": "Archive module",
-      "archive_module_description": "Only completed or canceled\nmodule can be archived.",
-      "delete_module": "Delete module"
+      "archive_module": "Archive outcome",
+      "archive_module_description": "Only completed or canceled\noutcome can be archived.",
+      "delete_module": "Delete outcome"
     },
     "toast": {
       "copy": {
-        "success": "Module link copied to clipboard"
+        "success": "Outcome link copied to clipboard"
       },
       "delete": {
-        "success": "Module deleted successfully",
-        "error": "Failed to delete module"
+        "success": "Outcome deleted successfully",
+        "error": "Failed to delete outcome"
       }
     }
   },
@@ -314,8 +314,8 @@
         }
       },
       "module": {
-        "title": "Modules are not enabled for the project.",
-        "description": "Modules are the building blocks of your project. Enable modules from project settings to start using them.",
+        "title": "Outcomes are not enabled for the project.",
+        "description": "Outcomes are the building blocks of your project. Enable outcomes from project settings to start using them.",
         "primary_button": {
           "text": "Manage features"
         }

@@ -33,9 +33,9 @@
         "failed": "Work item could not be removed from the cycle. Please try again."
       },
       "module": {
-        "loading": "Removing work item from the module",
-        "success": "Work item removed from the module successfully.",
-        "failed": "Work item could not be removed from the module. Please try again."
+        "loading": "Removing work item from the outcome",
+        "success": "Work item removed from the outcome successfully.",
+        "failed": "Work item could not be removed from the outcome. Please try again."
       },
       "parent": {
         "label": "Remove parent work item"

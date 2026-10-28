@@ -213,7 +213,7 @@
   "open_project": "Open project",
   "issues": "Work items",
   "cycles": "Cycles",
-  "modules": "Modules",
+  "modules": "Outcomes",
   "pages": "Pages",
   "intake": "Intake",
   "renew": "Renew",
@@ -429,8 +429,8 @@
     "project": "Project",
     "cycle": "Cycle",
     "cycles": "Cycles",
-    "module": "Module",
-    "modules": "Modules",
+    "module": "Outcome",
+    "modules": "Outcomes",
     "labels": "Labels",
     "label": "Label",
     "admins": "Admins",
@@ -789,7 +789,7 @@
     },
     "member": {
       "title": "Member",
-      "description": "Ability to read, write, edit, and delete entities inside projects, cycles, and modules"
+      "description": "Ability to read, write, edit, and delete entities inside projects, cycles, and outcomes"
     },
     "admin": {
       "title": "Admin",

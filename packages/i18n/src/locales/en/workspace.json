@@ -74,7 +74,7 @@
     "selected_projects": "Selected projects",
     "total_members": "Total members",
     "total_cycles": "Total cycles",
-    "total_modules": "Total modules",
+    "total_modules": "Total outcomes",
     "pending_work_items": {
       "title": "Pending work items",
       "empty_state": "Analysis of pending work items by co-workers appears here."
@@ -126,8 +126,8 @@
         "primary_button": {
           "text": "Start your first project",
           "comic": {
-            "title": "Analytics works best with Cycles + Modules",
-            "description": "First, timebox your issues into Cycles and, if you can, group issues that span more than a cycle into Modules. Check out both on the left nav."
+            "title": "Analytics works best with Cycles + Outcomes",
+            "description": "First, timebox your issues into Cycles and, if you can, group issues that span more than a cycle into Outcomes. Check out both on the left nav."
           }
         }
       },
@@ -137,7 +137,7 @@
       },
       "module_progress": {
         "title": "No data yet",
-        "description": "Module progress analytics will appear here. Add work items to modules to start tracking progress."
+        "description": "Outcome progress analytics will appear here. Add work items to outcomes to start tracking progress."
       },
       "intake_trends": {
         "title": "No data yet",
@@ -169,7 +169,7 @@
     "error": {
       "permission": "You don't have permission to perform this action.",
       "cycle_delete": "Failed to delete cycle",
-      "module_delete": "Failed to delete module",
+      "module_delete": "Failed to delete outcome",
       "issue_delete": "Failed to delete work item"
     },
     "state": {
@@ -196,7 +196,7 @@
     "empty_state": {
       "general": {
         "title": "No active projects",
-        "description": "Think of each project as the parent for goal-oriented work. Projects are where Jobs, Cycles, and Modules live and, along with your colleagues, help you achieve that goal. Create a new project or filter for archived projects.",
+        "description": "Think of each project as the parent for goal-oriented work. Projects are where Jobs, Cycles, and Outcomes live and, along with your colleagues, help you achieve that goal. Create a new project or filter for archived projects.",
         "primary_button": {
           "text": "Start your first project",
           "comic": {
