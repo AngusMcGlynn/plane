@@ -47,6 +47,8 @@ import { IssueBlocksList } from "./blocks-list";
 import { HeaderGroupByCard } from "./headers/group-by-card";
 import type { TRenderQuickActions } from "./list-view-types";
 
+const SHOW_INLINE_QUICK_ADD = false;
+
 interface Props {
   groupIssueIds: string[] | undefined;
   group: IGroupByColumn;
@@ -327,7 +329,9 @@ export const ListGroup = observer(function ListGroup(props: Props) {
               </>
             ))}
 
-          {enableIssueQuickAdd &&
+          {/* Morse Micro board: inline quick add is hidden; use "Add work item" instead. */}
+          {SHOW_INLINE_QUICK_ADD &&
+            enableIssueQuickAdd &&
             !disableIssueCreation &&
             !isGroupByCreatedBy &&
             !isCompletedCycle &&

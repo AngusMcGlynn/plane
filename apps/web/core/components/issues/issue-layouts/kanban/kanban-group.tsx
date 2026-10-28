@@ -47,6 +47,8 @@ import type { TRenderQuickActions } from "../list/list-view-types";
 import { KanbanQuickAddIssueButton, QuickAddIssueRoot } from "../quick-add";
 import { KanbanIssueBlocksList } from "./blocks-list";
 
+const SHOW_INLINE_QUICK_ADD = false;
+
 interface IKanbanGroup {
   groupId: string;
   issuesMap: IIssueMap;
@@ -326,7 +328,9 @@ export const KanbanGroup = observer(function KanbanGroup(props: IKanbanGroup) {
           </div>
         ))}
 
-      {enableQuickIssueCreate &&
+      {/* Morse Micro board: inline quick add is hidden; use "Add work item" instead. */}
+      {SHOW_INLINE_QUICK_ADD &&
+        enableQuickIssueCreate &&
         !disableIssueCreation &&
         !getIsWorkflowWorkItemCreationDisabled(groupId, sub_group_id) && (
           <div className="sticky bottom-0 w-full bg-surface-2 py-0.5">
