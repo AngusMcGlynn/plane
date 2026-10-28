@@ -59,32 +59,35 @@ def get_default_filters():
 
 
 def get_default_display_filters():
+    # Morse Micro board: new members start on the simple list, grouped by category.
     return {
-        "group_by": None,
-        "order_by": "-created_at",
+        "group_by": "labels",
+        "order_by": "target_date",
         "type": None,
-        "sub_issue": True,
-        "show_empty_groups": True,
+        "sub_issue": False,
+        "show_empty_groups": False,
         "layout": "list",
         "calendar_date_range": "",
     }
 
 
 def get_default_display_properties():
+    # Morse Micro board: show only status, date and outcome on each row.
     return {
-        "assignee": True,
-        "attachment_count": True,
-        "created_on": True,
+        "assignee": False,
+        "attachment_count": False,
+        "created_on": False,
         "due_date": True,
-        "estimate": True,
-        "key": True,
-        "labels": True,
-        "link": True,
-        "priority": True,
-        "start_date": True,
+        "estimate": False,
+        "key": False,
+        "labels": False,
+        "link": False,
+        "modules": True,
+        "priority": False,
+        "start_date": False,
         "state": True,
-        "sub_issue_count": True,
-        "updated_on": True,
+        "sub_issue_count": False,
+        "updated_on": False,
     }
 
 

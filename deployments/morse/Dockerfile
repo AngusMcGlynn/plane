@@ -46,3 +46,5 @@ RUN rm -rf /app/web && mkdir -p /app/web
 COPY --from=web /app/apps/web/build/client /app/web
 COPY deployments/morse/supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 COPY deployments/morse/morse_bootstrap_admin.py /app/backend/plane/db/management/commands/morse_bootstrap_admin.py
+# Simple default view for new members (same file as upstream v1.4.2 plus new defaults)
+COPY apps/api/plane/db/models/issue.py /app/backend/plane/db/models/issue.py
