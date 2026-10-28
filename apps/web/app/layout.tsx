@@ -25,7 +25,7 @@ import icon512 from "@/app/assets/icons/icon-512x512.png?url";
 import { AppProvider } from "./provider";
 
 export const meta = () => [
-  { title: "Plane | Simple, extensible, open-source project management tool." },
+  { title: "Morse Micro | Website and Content" },
   { name: "description", content: SITE_DESCRIPTION },
   {
     name: "keywords",
@@ -37,10 +37,10 @@ export const meta = () => [
     content:
       "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover",
   },
-  { property: "og:title", content: "Plane | Simple, extensible, open-source project management tool." },
+  { property: "og:title", content: "Morse Micro | Website and Content" },
   {
     property: "og:description",
-    content: "Open-source project management tool to manage work items, cycles, and product roadmaps easily",
+    content: "Plan, review, and approve every change to morsemicro.com.",
   },
   { property: "og:url", content: "https://app.plane.so/" },
   { property: "og:image", content: "https://app.plane.so/og-image.png" },
