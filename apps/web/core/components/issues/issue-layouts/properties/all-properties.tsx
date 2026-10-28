@@ -308,6 +308,7 @@ export const IssueProperties = observer(function IssueProperties(props: IIssuePr
               shouldHighlightIssueDueDate(issue.target_date, stateDetails?.group) ? "text-danger-primary" : ""
             }
             clearIconClassName="text-primary!"
+            isClearable={false}
             optionsClassName="z-10"
             disabled={isReadOnly}
             renderByDefault={isMobile}
