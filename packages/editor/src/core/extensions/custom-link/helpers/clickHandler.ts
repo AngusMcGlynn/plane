@@ -12,6 +12,14 @@ type ClickHandlerOptions = {
   type: MarkType;
 };
 
+const isSameOrigin = (href: string): boolean => {
+  try {
+    return new URL(href, window.location.href).origin === window.location.origin;
+  } catch {
+    return false;
+  }
+};
+
 export function clickHandler(options: ClickHandlerOptions): Plugin {
   return new Plugin({
     key: new PluginKey("handleClickLink"),
@@ -48,6 +56,14 @@ export function clickHandler(options: ClickHandlerOptions): Plugin {
           // to keep the policy consistent (GHSA-v2vv-7wq3-8w2j).
           if (/^(javascript|data|vbscript|file|about):/i.test(href)) {
             return false;
+          }
+
+          // Morse Micro board: links to other board pages open in the same tab, like a wiki.
+          // Cmd, Ctrl or Shift click still opens a new tab.
+          const openInNewTab = event.metaKey || event.ctrlKey || event.shiftKey;
+          if (!openInNewTab && isSameOrigin(href)) {
+            window.location.assign(href);
+            return true;
           }
 
           window.open(href, target);
