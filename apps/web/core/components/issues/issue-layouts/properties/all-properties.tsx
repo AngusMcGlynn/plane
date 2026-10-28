@@ -300,6 +300,7 @@ export const IssueProperties = observer(function IssueProperties(props: IIssuePr
           <DateDropdown
             value={issue?.target_date ?? null}
             onChange={handleTargetDate}
+            formatToken="MMM d"
             minDate={minDate}
             placeholder={t("common.order_by.due_date")}
             icon={<DueDatePropertyIcon className="h-3 w-3 shrink-0" />}
