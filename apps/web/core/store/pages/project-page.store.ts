@@ -71,10 +71,12 @@ export class ProjectPageStore implements IProjectPageStore {
   loader: TLoader = "init-loader";
   data: Record<string, TProjectPage> = {}; // pageId => Page
   error: TError | undefined = undefined;
+  // Morse Micro board: list pages in the order they were written, so the plan comes first
+  // and the numbered strategy pages follow in reading order.
   filters: TPageFilters = {
     searchQuery: "",
-    sortKey: "updated_at",
-    sortBy: "desc",
+    sortKey: "created_at",
+    sortBy: "asc",
   };
   // service
   service: ProjectPageService;
